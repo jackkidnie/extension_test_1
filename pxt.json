@@ -1,10 +1,11 @@
 {
-    "name": "PID_Extension",
+    "name": "Extension_Test_1",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "PID_Extension": "github:jackkidnie/extension_test_1#d539a9030eced8fdbcf840ca75854872426051db"
     },
     "files": [
         "main.blocks",
@@ -21,5 +22,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
